@@ -1,0 +1,12 @@
+p {
+    color: white; 
+    font-family: Verdana;
+}
+p.titulo{
+    font-size: 3em;
+    font-family: fantasy
+}
+
+body{
+    background: black;
+}
