@@ -5,6 +5,7 @@ img {
     width: 	100%;
 }
 a{
+    font-family: Verdana;
     color:blue;
 }
 p {
@@ -29,7 +30,7 @@ p.fondo2{
 }
 ol{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Times New Roman;
     text-align: center;
     
 }
