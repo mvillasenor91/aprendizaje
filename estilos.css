@@ -4,18 +4,38 @@ html, body {
 img {
     width: 	100%;
 }
-
+a{
+    color:blue;
+}
 p {
     color: white; 
     font-family: Verdana;
     text-align: center;
+    width: 100%;
 }
 p.titulo {
     font-size: 3em;
     font-family: fantasy;
 }
+p.fondo{
+    font-size: 1em;
+    font-family: Verdana;
+    text-align: right;
+}
+p.fondo2{
+    font-size: 1em;
+    font-family: Verdana;
+    text-align: left;
+}
+ol{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
 
 body{
     background: black;
     text-align: center;
+    width: 100%;
 }
