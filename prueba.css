@@ -1,0 +1,11 @@
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+    border:1px solid black;
+}
+td{
+    border:1px solid green;
+}
+tr:nth-child(even){
+    background: pink;
+}
