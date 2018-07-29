@@ -5,7 +5,26 @@ img {
     max-width: 	100%;
     height: auto;
 }
-
+table{
+    border-collapse: collapse;
+    border-spacing: 1px;
+    border:1px solid white;
+    
+}
+td{
+    border:1px solid rgb(204, 9, 116);
+}
+tr:nth-child(even){
+    background: pink;
+}
+tr:nth-child(odd){
+    background: white;
+}
+caption{
+    color: white;
+    font-family: times new roman;
+    text-align:center;
+}
 a{
     font-family: Verdana;
     /* color:white; */
@@ -42,25 +61,4 @@ body{
     background: black;
     text-align: center;
     width: 100%;
-}
-
-table{
-    border-collapse: collapse;
-    border-spacing: 1px;
-    border:1px solid white;
-    
-}
-td{
-    border:1px solid rgb(204, 9, 116);
-}
-tr:nth-child(even){
-    background: pink;
-}
-tr:nth-child(odd){
-    background: white;
-}
-caption{
-    color: white;
-    font-family: times new roman;
-    text-align:center;
 }
