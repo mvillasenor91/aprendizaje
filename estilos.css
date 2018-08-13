@@ -5,10 +5,14 @@ img {
     width: 	80%;
     height: auto;
 }
+img.fa{
+    width: 56px;
+    height: auto;
+}
 table{
     border-collapse: collapse;
     border-spacing: 1px;
-    border:1px solid white;
+    border:1px solid black;
     
 }
 td{
@@ -21,24 +25,51 @@ tr:nth-child(odd){
     background: white;
 }
 caption{
-    color: white;
-    font-family: times new roman;
+    color: black;
+    font-family: 'times new roman';
     text-align:center;
 }
 a{
     font-family: Verdana;
-    /* color:white; */
+    
+}
+/* link sin visitar */
+a:link {
+    color: red;
+}
+
+/* link ya visto*/
+a:visited {
+    color:rgb(52, 100, 189);
+}
+
+/* link con el mouse arriba */
+a:hover {
+    color: rgb(88, 8, 126);
+}
+
+/* link seleccionado */
+a:active {
+    color: rgb(2, 224, 253);
 }
 p {
-    color: white; 
+    color: black; 
     font-family: Verdana;
-    text-align: center;
+    text-align: justify;
     width: 100%;
     /*comentario*/
+}
+#borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url("border2.png") 30 stretch; 
+    -o-border-image: url("border2.png") 30 stretch; 
+    border-image: url("border2.png") 30 stretch;
 }
 p.titulo {
     font-size: 3em;
     font-family: fantasy;
+    text-align: center;
 }
 p.fondo{
     font-size: 1em;
@@ -51,14 +82,22 @@ p.fondo2{
     text-align: left;
 }
 ol{
-    color: white;
+    color: black;
     font-family: Times New Roman;
     text-align: center;
     
 }
 
 body{
-    background: black;
+    background-image: url("background.jpg");
     text-align: center;
     width: 100%;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+}
+caption{
+    text-shadow: 1.5px 1.5px rgb(97, 106, 109);
 }
