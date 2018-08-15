@@ -55,9 +55,14 @@ a:active {
 p {
     color: black; 
     font-family: Verdana;
-    text-align: justify;
+    text-align: center;
     width: 100%;
     /*comentario*/
+}
+p.bottomfoot{
+    color:white;
+    text-align: center;
+    font-size: 0.7em;
 }
 #borderimg { 
     border: 10px solid transparent;
@@ -100,4 +105,9 @@ h1{
 }
 caption{
     text-shadow: 1.5px 1.5px rgb(97, 106, 109);
+}
+footer{
+    background-color: rgb(72, 67, 77);
+    height: 500%;
+    
 }
